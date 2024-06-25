@@ -1,7 +1,7 @@
 """
 Entry point for running the Flask application.
 
-This script initializes and runs the Flask application defined in the src __init__ file.
+This script initializes and runs the Flask application defined in the phasebook __init__ file.
 
 Usage:
     python run.py
