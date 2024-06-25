@@ -33,12 +33,12 @@ def search_users(args):
         args.get("occupation")
     ]
 
-    instance = Actions(USERS, *queries)
+    instance = Action(USERS, *queries)
     result = instance.execute()
 
     return jsonify(result)
 
-class Actions:
+class Action:
     def __init__(self, data: list, *queries) -> None:
         """
         Initialize the Actions instance with data and optional queries.
