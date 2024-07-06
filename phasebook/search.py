@@ -1,5 +1,4 @@
 from flask import Blueprint, request, jsonify
-
 from .data.search_data import USERS
 
 
